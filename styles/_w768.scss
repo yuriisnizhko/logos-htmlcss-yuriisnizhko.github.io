@@ -1,0 +1,345 @@
+@media (min-width: 788px) {
+    .container {
+        width: 768px;
+        height: 3700px;
+        .head {
+            width: 768px;
+            height: 700px;
+            background-image: url(img/head_tablet.png);
+            background-size: contain;
+            .head_box_1 {
+                margin: 41px 0px 0px 564px;
+            }
+            .head_box_2 {
+                margin: -31px 0px 0px 48px;
+            }
+            .head_box_3 {
+                width: 470px;
+                height: 126px;
+                font-size: 52px;
+                line-height: 63px;
+                margin: 154px auto 0px auto;
+            }
+            .head_box_4 {
+                width: 396px;
+                height: 25px;
+                font-size: 24px;
+                line-height: 24px;
+                margin: 28px auto 0px auto;
+            }
+            .head_button {
+                width: 225px;
+                height: 40px;
+                margin: 33px auto 0px auto;
+            }
+        }
+        .howworks {
+            width: 748px;
+            height: 461px;
+            margin-top: 94px;
+            display:grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(10, 46.1px);
+            .howworks_1 {
+                margin: 0px auto 0px auto;
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+            .howworks_2 {
+                width: 236px;
+                height: 400px;
+                margin: 16px 0px 0px 0px ;
+                background-size: contain;
+                background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url(img/howworks1.png);
+                
+                .howworks_2_button {
+                    margin-top: 205px;
+                }
+                .howworks_2_text_1 {
+                    width: 196px;
+                    height: 58px;
+                }
+                .howworks_2_text_2 {
+                    width: 196px;
+                    height: 76px;
+                }
+            }
+            .howworks_3 {
+                width: 236px;
+                height: 400px;
+                margin: 16px 0px 0px 0px ;
+                background-size: contain;
+                margin-left: 7px;
+                background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url(img/howworks2.png);
+                .howworks_3_button {
+                    margin-top: 205px;
+                }
+                .howworks_3_text_1 {
+                    width: 196px;
+                    height: 58px;
+                }
+                .howworks_3_text_2 {
+                    width: 196px;
+                    height: 76px;
+                }
+            }
+            .howworks_4 {
+                width: 236px;
+                height: 400px;
+                margin: 16px 0px 0px 0px ;
+                background-size: contain;
+                margin-left: 13px;
+                background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url(img/howworks3.png);
+                .howworks_4_button {
+                    margin-top: 205px;
+                }
+                .howworks_4_text_1 {
+                    width: 196px;
+                    height: 58px;
+                }
+                .howworks_4_text_2 {
+                    width: 196px;
+                    height: 76px;
+                }
+            }
+            
+        }
+
+        .parthners {
+            width: 492px;
+            height: 605px;
+            margin: 77px auto 0px auto;
+            display:grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(10, 60.5px);
+            .parthners_text {
+                width: 416px;
+                height: 27px;
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+            .parthners_1{
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 2;
+                grid-row-end: 6;
+                margin: 20px 0px 0px 0px;
+            }
+            .parthners_2 {
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 2;
+                grid-row-end: 6;
+                margin: 20px 0px 0px 10px;
+            }
+            .parthners_3 {
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 6;
+                grid-row-end: 10;
+                margin: 37px 0px 0px 0px;
+            }
+            .parthners_4 {
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 6;
+                grid-row-end: 10;
+                margin: 37px 0px 0px 10px;
+            }
+            .parthners_button {
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 10;
+                grid-row-end: 11;
+                width: 180px;
+                height: 40px;
+                margin: 40px auto 0px auto;
+            }
+        }
+        .activity {
+            width: 748px;
+            height: 1031px;
+            margin: 113px auto 0px auto;
+            display:grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(19, 54.26px);
+            .activity_text {
+                width: 350px;
+                height: 27px;
+                margin: 0px auto 0px auto;
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+            .activity_box {
+                padding-top: 135px;
+                background-size:contain;
+            }
+            .activity_1 {
+                width: 236px;
+                height: 310px;
+                margin: 8px 0px 0px 0px;
+                background-image: linear-gradient(90deg, rgba(0,0,0,0.16299019607843135) 100%, rgba(0,0,0,0.5551470588235294) 100%, rgba(0,212,255,1) 100%), url(img/tablet_activity_1.png);
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 2;
+                grid-row-end: 8;
+            }
+            .activity_2 {
+                width: 236px;
+                height: 310px;
+                margin: 8px 0px 0px 10px;
+                background-image: linear-gradient(90deg, rgba(0,0,0,0.16299019607843135) 100%, rgba(0,0,0,0.5551470588235294) 100%, rgba(0,212,255,1) 100%), url(img/tablet_activity_2.png);
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 2;
+                grid-row-end: 8;
+            }
+            .activity_3 {
+                width: 236px;
+                height: 310px;
+                margin: 8px 0px 0px 14px;
+                background-image: linear-gradient(90deg, rgba(0,0,0,0.16299019607843135) 100%, rgba(0,0,0,0.5551470588235294) 100%, rgba(0,212,255,1) 100%), url(img/tablet_activity_3.png);
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 2;
+                grid-row-end: 8;
+            }
+            .activity_4 {
+                width: 236px;
+                height: 310px;
+                margin: 13px 0px 0px 0px;
+                background-image: linear-gradient(90deg, rgba(0,0,0,0.16299019607843135) 100%, rgba(0,0,0,0.5551470588235294) 100%, rgba(0,212,255,1) 100%), url(img/tablet_activity_4.png);
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 8;
+                grid-row-end: 14;
+            }
+            .activity_5 {
+                width: 492px;
+                height: 310px;
+                margin: 13px 0px 0px 10px;
+                background-image: linear-gradient(90deg, rgba(0,0,0,0.16299019607843135) 100%, rgba(0,0,0,0.5551470588235294) 100%, rgba(0,212,255,1) 100%), url(img/tablet_activity_5.png);
+                grid-column-start: 2;
+                grid-column-end: 4;
+                grid-row-start: 8;
+                grid-row-end: 14;
+            }
+            .activity_6 {
+                width: 492px;
+                height: 310px;
+                margin: 17px 0px 0px 0px;
+                background-image: linear-gradient(90deg, rgba(0,0,0,0.16299019607843135) 100%, rgba(0,0,0,0.5551470588235294) 100%, rgba(0,212,255,1) 100%), url(img/tablet_activity_6.png);
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 14;
+                grid-row-end: 19;
+            }
+            .activity_7 {
+                width: 236px;
+                height: 310px;
+                margin: 17px 0px 0px 15px;
+                background-image: linear-gradient(90deg, rgba(0,0,0,0.16299019607843135) 100%, rgba(0,0,0,0.5551470588235294) 100%, rgba(0,212,255,1) 100%), url(img/tablet_activity_7.png);
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 14;
+                grid-row-end: 19;
+            }
+        }
+        .create {
+            width: 482px;
+            height: 160px;
+            margin: 95px auto 0px auto;
+            display:grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(4, 40px);
+            .create_text_1 {
+                width: 303px;
+                height: 27px;
+                margin: 0px auto 0px auto;
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+            .create_text_2 {
+                margin: 0px auto 0px auto;
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 3;
+                grid-row-end: 4;
+            }
+            .create_form {
+                width: 299px;
+                height: 40px;
+                margin: 0px 0px 0px 0px;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 4;
+                grid-row-end: 5;
+            }
+            .create_button {
+                width: 172px;
+                height: 40px;
+                margin: 0px 0px 0px 10px;
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 4;
+                grid-row-end: 5;
+            }
+        }
+        .vault {
+            width: 768px;
+            height: 224px;
+            margin: 99px 0px 0px 0px;
+            display:grid;
+            grid-template-columns: repeat(4, 1fr);
+            
+            .vault_1 {
+                margin: 36px 0px 0px 39px;
+                grid-column-start: 1;
+                grid-column-end: 2;
+
+            }
+            .vault_2 {
+                margin: 38px 0px 0px 74px;
+                width: 114px;
+                height: 230px;
+                grid-column-start: 2;
+                grid-column-end: 3;
+                .vault_2_1{
+                    text-align: left;
+                    margin: 0px 0px 0px 0px;
+                }
+                .vault_2_2 {
+                    width: 114px;
+                    height: 158px;  
+                    padding: 0px 0px 0px 0px;
+                    margin: 11px 0px 0px 0px;
+                    justify-content:left;
+                    display:grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: repeat(6, 1fr);
+                }
+
+            }
+            .vault_3 {
+                margin: 38px 0px 0px 52px;
+                grid-column-start: 3;
+                grid-column-end: 4;
+
+            }
+            .vault_4 {
+                margin: 38px 0px 0px 43px;
+                grid-column-start: 4;
+                grid-column-end: 5;
+
+            }
+        }
+    }
+    }

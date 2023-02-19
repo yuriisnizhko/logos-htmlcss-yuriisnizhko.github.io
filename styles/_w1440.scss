@@ -1,0 +1,205 @@
+@media (min-width: 1460px) {
+    .container {
+        width: 1440px;
+        height: 3700px;
+        .head {
+            width: 1440px;
+            height: 700px;
+            background-image: url(img/head_desktop.png);
+            background-size: contain;
+            .head_box_1 {
+                margin: 41px 0px 0px 997px;
+            }
+            .head_box_2 {
+                margin: -31px 0px 0px 249px;
+            }
+        }
+        .howworks {
+            width: 940px;
+            height: 461px;
+            margin-top: 89px;
+            display:grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(10, 1fr);
+            .howworks_1 {
+                width: 342px;
+                height: 32px;
+                font-size: 26px;
+                line-height: 32px;
+            }
+            .howworks_2 {
+                width: 300px;
+                height: 400px;
+                margin-top: 35px;
+                background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url(img/desk_howworks1.png);
+                .howworks_2_button {
+                    margin-top: 219px;
+                }
+                .howworks_2_text_2 {
+                    width: 250px;
+                    height: 57px;
+                }
+            }
+            .howworks_3{
+                width: 300px;
+                height: 400px;
+                margin-top: 35px;
+                background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url(img/desk_howworks2.png);
+                .howworks_3_button {
+                    margin-top: 219px;
+                }
+                .howworks_3_text_2 {
+                    width: 250px;
+                    height: 57px;
+                }
+            }
+            .howworks_4 {
+                width: 300px;
+                height: 400px;
+                margin-top: 35px;
+                background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url(img/desk_howworks3.png);
+                .howworks_4_button {
+                    margin-top: 219px;
+                }
+                .howworks_4_text_2 {
+                    width: 250px;
+                    height: 57px;
+                }
+            }
+        }
+        .parthners {
+            width: 941px;
+            height: 360px;
+            margin-top: 95px;
+            display:grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(9, 1fr);
+            .parthners_text {
+                width: 491px;
+                height: 32px;
+                margin: 0px auto 0px auto;
+                font-size: 26px;
+                line-height: 32px;
+                grid-column-start: 1;
+                grid-column-end: 5;
+                grid-row-start: 1;
+                grid-row-end: 3;
+            }
+            .parthners_1 {
+                margin: 0px 0px 0px 0px;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 3;
+                grid-row-end: 8;
+            }
+            .parthners_2 {
+                margin: 0px 0px 0px 0px;
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 3;
+                grid-row-end: 8;
+            }
+            .parthners_3 {
+                margin: 0px 0px 0px 0px;
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 3;
+                grid-row-end: 8;
+            }
+            .parthners_4 {
+                margin: 0px 0px 0px 0px;
+                grid-column-start: 4;
+                grid-column-end: 5;
+                grid-row-start: 3;
+                grid-row-end: 8;
+            }
+            .parthners_button {
+                margin: 28px auto 0px auto;
+                grid-column-start: 1;
+                grid-column-end: 5;
+                grid-row-start: 8;
+                grid-row-end: 10;
+            }
+        }
+        .activity {
+            width: 940px;
+            height: 1031px;
+            margin: 101px auto 0px auto;
+            .activity_text {
+                width: 413px;
+                height: 32px;
+                font-size: 26px;
+                line-height: 32px;
+            }
+            .activity_1 {
+                width: 300px;
+                height: 310px;
+                background-image: linear-gradient(90deg, rgba(0,0,0,0.16299019607843135) 100%, rgba(0,0,0,0.5551470588235294) 100%, rgba(0,212,255,1) 100%), url(img/desk_activity1.png);
+            }
+            .activity_2 {
+                width: 300px;
+                height: 310px;
+                background-image: linear-gradient(90deg, rgba(0,0,0,0.16299019607843135) 100%, rgba(0,0,0,0.5551470588235294) 100%, rgba(0,212,255,1) 100%), url(img/desk_activity2.png);
+            }
+            .activity_3 {
+                width: 300px;
+                height: 310px;
+                background-image: linear-gradient(90deg, rgba(0,0,0,0.16299019607843135) 100%, rgba(0,0,0,0.5551470588235294) 100%, rgba(0,212,255,1) 100%), url(img/desk_activity3.png);
+            }
+            .activity_4 {
+                width: 300px;
+                height: 310px;
+                background-image: linear-gradient(90deg, rgba(0,0,0,0.16299019607843135) 100%, rgba(0,0,0,0.5551470588235294) 100%, rgba(0,212,255,1) 100%), url(img/desk_activity4.png);
+            }
+            .activity_5 {
+                width: 620px;
+                height: 310px;
+                background-image: linear-gradient(90deg, rgba(0,0,0,0.16299019607843135) 100%, rgba(0,0,0,0.5551470588235294) 100%, rgba(0,212,255,1) 100%), url(img/desk_activity5.png);
+            }
+            .activity_6 {
+                width: 620px;
+                height: 310px;
+                background-image: linear-gradient(90deg, rgba(0,0,0,0.16299019607843135) 100%, rgba(0,0,0,0.5551470588235294) 100%, rgba(0,212,255,1) 100%), url(img/desk_activity6.png);
+            }
+            .activity_7 {
+                width: 300px;
+                height: 310px;
+                background-image: linear-gradient(90deg, rgba(0,0,0,0.16299019607843135) 100%, rgba(0,0,0,0.5551470588235294) 100%, rgba(0,212,255,1) 100%), url(img/desk_activity7.png);
+            }
+        }
+        .create {
+            .create_text_1 {
+                width: 358px;
+                height: 32px;
+                font-size: 26px;
+                line-height: 32px;
+            }
+        }
+        .vault {
+            width: 1440px;
+            height: 224px;
+            display:grid;
+            grid-template-columns: repeat(6, 1fr);
+            .vault_1 {
+                grid-column-start: 2;
+                grid-column-end: 3;
+                margin: 36px 0px 0px 9px;
+            }
+            .vault_2 {
+                grid-column-start: 3;
+                grid-column-end: 4;
+                margin: 38px 0px 0px 10px;
+            }
+            .vault_3 {
+                grid-column-start: 4;
+                grid-column-end: 5;
+                margin: 38px 0px 0px 9px;
+            }
+            .vault_4 {
+                grid-column-start: 5;
+                grid-column-end: 6;
+                margin: 38px 0px 0px 121px;
+            }
+        }
+    }
+}

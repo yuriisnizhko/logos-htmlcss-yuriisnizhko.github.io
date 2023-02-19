@@ -1,0 +1,619 @@
+@import 'reset';
+@import 'fonts';
+@import 'var';
+
+
+.text_login {
+    color: $text_color_1;
+    font-family: 'Montserrat-Regular_400';
+    font-size: 14px;
+    line-height: 17.07px;
+}
+
+.container {
+    width: 320px;
+    height: 3930px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    .head {
+        width: 320px;
+        height: 540px;
+        background-color: black;
+        background-image: url(img/Bitmap_mobile.png);
+        margin: 0px auto 0px auto;
+        
+        .head_box_1 {
+            width: 153px;
+            height: 36px;
+            display: flex;
+            margin: 21px 0px 0px 84px;
+            .head_box_1_1 {
+                width: 44px;
+                height: 17px;
+                margin: 9px 20px 0px 0px;
+                cursor: pointer;
+            }
+            .head_box_2_1 {
+                width: 90px;
+                height: 36px;
+                border-radius: 40px;
+                border: 2px solid #FFFFFF ;
+                text-align: center;
+                padding-top: 6px;
+                cursor: pointer;
+            }
+        }
+        .head_box_2 {
+            width: 152px;
+            height: 24px;
+            margin: 96px auto 0px auto;
+            font-family: 'Montserrat-Bold_700';
+            font-size: 20px;
+            line-height: 24px;
+            .head_box_2_text {
+                color: $text_color_1;
+            }
+        }
+        .head_box_3 {
+            width: 272px;
+            height: 74px;
+            font-size: 30px;
+            line-height: 36.57px;
+            font-family: 'Montserrat-Bold_700';
+            text-align: center;
+            margin: 27px auto 0px auto;
+            .head_box_3_text {
+                color: $text_color_1;
+            }
+        }
+        .head_box_4 {
+            width: 280px;
+            height: 49px;
+            font-size: 18px;
+            line-height: 24.5px;
+            text-align: center;
+            font-family: 'Roboto-Light_300';
+            margin: 6px auto 0px auto;
+            .head_box_4_text {
+                color: $text_color_2;
+            }
+        }
+        .head_button {
+            width: 280px;
+            height: 40px;
+            border-radius: 40px;
+            background-color: $color_1;
+            font-family: 'Montserrat-Bold_700';
+            font-size: 14px;
+            line-height: 17.07px;
+            text-align: center;
+            padding-top: 12px;
+            margin: 14px auto 0px auto;
+            cursor: pointer;
+            .head_button_text {
+                color: $text_color_1;
+            }
+        }
+    }
+    .howworks {
+        width: 300px;
+        height: 800px;
+        margin: 34px auto 0px auto;
+        display: flex;
+        flex-direction: column;
+        .howworks_1 {
+            width: 289px;
+            height: 27px;
+            margin: 0px auto 15px auto;
+            font-size: 22px;
+            line-height: 27px;
+            text-align: center;
+            font-family: 'Montserrat-Bold_700';
+        }
+        .howworks_2 {
+            width: 300px;
+            height: 240px;
+            margin: 0px auto 10px auto;
+            border-radius: 4px;
+            background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url(img/Bitmap.png);
+            .howworks_2_button {
+                width: 70px;
+                height: 20px;
+                border-radius: 40px;
+                background-color: $color_1;
+                font-size: 10px;
+                letter-spacing: 2px;
+                line-height: 12px;
+                font-family: 'Montserrat-Regular_400';
+                text-align: center;
+                padding-top: 4px;
+                margin: 65px 0px 0px 21px;
+                .howworks_2_button_text {
+                    color: $text_color_1;
+                }
+            }
+            .howworks_2_text_1 {
+                width: 250px;
+                height: 57px;
+                font-size: 24px;
+                line-height: 14px;
+                font-family: 'Montserrat-Bold_700';
+                display: flex;
+                align-items: flex-end;
+                margin: 16px 0px 0px 20px ;
+                .howworks_2_text_1_text {
+                    color: $text_color_1;
+                }
+            }
+            .howworks_2_text_2 {
+                width: 250px;
+                height: 57px;
+                font-family: 'Roboto-Light_300';
+                font-size: 14px;
+                line-height: 14px;
+                display: flex;
+                align-items: flex-end;
+                margin: 10px 0px 0px 20px;
+                .howworks_2_text_2_text {
+                    color: $text_color_3;
+                }
+            }
+        }
+        .howworks_3 {
+            width: 300px;
+            height: 240px;
+            margin: 0px auto 10px auto;
+            border-radius: 4px;
+            background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url(img/Bitmap\(1\).png);
+            .howworks_3_button {
+                width: 70px;
+                height: 20px;
+                border-radius: 40px;
+                background-color: $color_1;
+                font-size: 10px;
+                letter-spacing: 2px;
+                line-height: 12px;
+                font-family: 'Montserrat-Regular_400';
+                text-align: center;
+                padding-top: 4px;
+                margin: 65px 0px 0px 21px;
+                .howworks_3_button_text {
+                    color: $text_color_1;
+                }
+            }
+            .howworks_3_text_1 {
+                width: 250px;
+                height: 57px;
+                font-size: 24px;
+                line-height: 14px;
+                font-family: 'Montserrat-Bold_700';
+                display: flex;
+                align-items: flex-end;
+                margin: 16px 0px 0px 20px ;
+                .howworks_3_text_1_text {
+                    color: $text_color_1;
+                }
+            }
+            .howworks_3_text_2 {
+                width: 250px;
+                height: 57px;
+                font-family: 'Roboto-Light_300';
+                font-size: 14px;
+                line-height: 14px;
+                display: flex;
+                align-items: flex-end;
+                margin: 10px 0px 0px 20px;
+                .howworks_3_text_2_text {
+                    color: $text_color_3;
+                }
+            }
+            
+        }
+        .howworks_4 {
+            width: 300px;
+            height: 240px;
+            margin: 0px auto 10px auto;
+            border-radius: 4px;
+            background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url(img/Bitmap\(2\).png);
+            .howworks_4_button {
+                width: 70px;
+                height: 20px;
+                border-radius: 40px;
+                background-color: $color_1;
+                font-size: 10px;
+                letter-spacing: 2px;
+                line-height: 12px;
+                font-family: 'Montserrat-Regular_400';
+                text-align: center;
+                padding-top: 4px;
+                margin: 65px 0px 0px 21px;
+                .howworks_4_button_text {
+                    color: $text_color_1;
+                }
+            }
+            .howworks_4_text_1 {
+                width: 250px;
+                height: 57px;
+                font-size: 24px;
+                line-height: 14px;
+                font-family: 'Montserrat-Bold_700';
+                display: flex;
+                align-items: flex-end;
+                margin: 16px 0px 0px 20px ;
+                .howworks_4_text_1_text {
+                    color: $text_color_1;
+                }
+            }
+            .howworks_4_text_2 {
+                width: 250px;
+                height: 57px;
+                font-family: 'Roboto-Light_300';
+                font-size: 14px;
+                line-height: 14px;
+                display: flex;
+                align-items: flex-end;
+                margin: 10px 0px 0px 20px;
+                .howworks_4_text_2_text {
+                    color: $text_color_3;
+                }
+            }
+        }
+    }
+    .parthners {
+        width: 300px;
+        height: 1050px;
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto 0px auto;
+        .parthners_text {
+            width: 280px;
+            height: 54px;
+            text-align: center;
+            font-size: 22px;
+            line-height: 27px;
+            font-family: 'Montserrat-Bold_700';
+            margin: 18px auto 0px auto;
+        }
+        .parthners_1 {
+            width: 236px;
+            height: 205px;
+            margin: 14px auto 0px auto;
+            .parthners_1_img {
+                width: 120px;
+                height: 120px;
+                background-image: url(img/parthner_1.png);
+                background-size: contain;
+                margin: 0px auto 0px auto;
+            }
+            .parthners_1_text_1 {
+                width: 236px;
+                height: 18px;
+                font-size: 14px;
+                font-family: 'Montserrat-Bold_700';
+                line-height: 17px;
+                text-align: center;
+                margin: 18px auto 0px auto;
+            }
+            .parthners_1_text_2 {
+                width: 236px;
+                height: 38px;
+                font-size: 14px;
+                line-height: 14px;
+                text-align: center;
+                font-family: 'Roboto-Light_300';
+                margin: 21px auto 0px auto;
+                .parthners_1_text_2_text {
+                    color: $text_color_4;
+                }
+            }
+        }
+        .parthners_2 {
+            @extend .parthners_1;
+            margin: 16px auto 0px auto;
+            width: 236px;
+            height: 224px;
+            .parthners_2_img {
+                @extend .parthners_1_img;
+                background-image: url(img/parthner_2.png);
+            }
+            .parthners_2_text_1 {
+                @extend .parthners_1_text_1;
+            }
+            .parthners_2_text_2 {
+                @extend .parthners_1_text_2;
+                height: 57px;
+                .parthners_2_text_2_text {
+                    color: $text_color_4;
+                }
+            }
+        }
+        .parthners_3 {
+            @extend .parthners_1;
+            margin: 16px auto 0px auto;
+            .parthners_3_img {
+                @extend .parthners_1_img;
+                background-image: url(img/parthner_3.png);
+            }
+            .parthners_3_text_1 {
+                @extend .parthners_1_text_1;
+            }
+            .parthners_3_text_2 {
+                @extend .parthners_1_text_2;
+                .parthners_3_text_2_text {
+                    color: $text_color_4;
+                }
+            }
+        }
+        .parthners_4 {
+            @extend .parthners_1;
+            margin: 16px auto 0px auto;
+            .parthners_4_img {
+                @extend .parthners_1_img;
+                background-image: url(img/parthner_4.png);
+            }
+            .parthners_4_text_1 {
+                @extend .parthners_1_text_1;
+            }
+            .parthners_4_text_2 {
+                @extend .parthners_1_text_2;
+                .parthners_4_text_2_text {
+                    color: $text_color_4;
+                }
+            }
+        }
+        .parthners_button {
+            width: 280px;
+            height: 40px;
+            border-radius: 40px;
+            border: 2px solid $color_1;
+            font-size: 14px;
+            font-family: 'Montserrat-Bold_700';
+            line-height: 17px;
+            text-align: center;
+            padding-top: 9px;
+            margin: 36px auto 0px auto;
+            cursor: pointer;
+            .parthners_button_text {
+                color: $color_1;
+            }
+        }
+    }
+    .activity {
+        width: 300px;
+        height: 1030px;
+        margin: 0px auto 0px auto;
+        display: flex;
+        flex-direction: column;
+        .activity_text{
+            width: 280px;
+            height: 54px;
+            font-size: 22px;
+            line-height: 27px;
+            font-family: 'Montserrat-Bold_700';
+            text-align: center;
+            margin: 34px auto 23px auto;
+        }
+        .activity_box {
+            width: 300px;
+            height: 120px;
+            border-radius: 4px;
+            margin: 10px auto 0px auto;
+            text-align: center;
+            font-size: 22px;
+            line-height: 27px;
+            font-family: 'Montserrat-Bold_700';
+            background-size:cover;
+            padding-top: 48px;
+        }
+        .activity_1 {
+            @extend .activity_box;
+            background-image: linear-gradient(90deg, rgba(0,0,0,0.16299019607843135) 100%, rgba(0,0,0,0.5551470588235294) 100%, rgba(0,212,255,1) 100%), url(img/activity1.png);
+            padding-top: 20px;
+            span {
+                color: $text_color_1;
+            }
+        }
+        .activity_2 {
+            @extend .activity_box;
+            background-image: linear-gradient(90deg, rgba(0,0,0,0.16299019607843135) 100%, rgba(0,0,0,0.5551470588235294) 100%, rgba(0,212,255,1) 100%), url(img/activity2.png);
+            padding-top: 33px;
+            span {
+                color: $text_color_1;
+            }
+        }
+        .activity_3 {
+            @extend .activity_box;
+            background-image: linear-gradient(90deg, rgba(0,0,0,0.16299019607843135) 100%, rgba(0,0,0,0.5551470588235294) 100%, rgba(0,212,255,1) 100%), url(img/activity3.png);
+            padding-top: 33px;
+            span {
+                color: $text_color_1;
+            }
+        }
+        .activity_4 {
+            @extend .activity_box;
+            background-image: linear-gradient(90deg, rgba(0,0,0,0.16299019607843135) 100%, rgba(0,0,0,0.5551470588235294) 100%, rgba(0,212,255,1) 100%), url(img/activity4.png);
+            span {
+                color: $text_color_1;
+            }
+        }
+        .activity_5 {
+            @extend .activity_box;
+            background-image: linear-gradient(90deg, rgba(0,0,0,0.16299019607843135) 100%, rgba(0,0,0,0.5551470588235294) 100%, rgba(0,212,255,1) 100%), url(img/activity5.png);
+            span {
+                color: $text_color_1;
+            }
+        }
+        .activity_6 {
+            @extend .activity_box;
+            background-image: linear-gradient(90deg, rgba(0,0,0,0.16299019607843135) 100%, rgba(0,0,0,0.5551470588235294) 100%, rgba(0,212,255,1) 100%), url(img/activity6.png);
+            span {
+                color: $text_color_1;
+            }
+        }
+        .activity_7 {
+            @extend .activity_box;
+            background-image: linear-gradient(90deg, rgba(0,0,0,0.16299019607843135) 100%, rgba(0,0,0,0.5551470588235294) 100%, rgba(0,212,255,1) 100%), url(img/activity7.png);
+            span {
+                color: $text_color_1;
+            }
+        }
+    }
+    .create {
+        width: 300px;
+        height: 200px;
+        margin: 26px auto 0px auto;
+        display: flex;
+        flex-direction: column;
+        .create_text_1 {
+            width: 280px;
+            height: 54px;
+            margin: 0px auto 0px auto;
+            font-size: 22px;
+            line-height: 27px;
+            text-align: center;
+            font-family: 'Montserrat-Bold_700';
+            span {
+                color: $text_color_4;
+            }
+        }
+        .create_text_2 {
+            width: 280px;
+            height: 24px;
+            margin: 19px auto 0px auto;
+            font-size: 18px;
+            line-height: 14px;
+            text-align: center;
+            font-family: 'Roboto-Light_300';
+            span {
+                color: $text_color_5;
+            }
+        }
+        .create_form {
+            width: 280px;
+            height: 40px;
+            border-radius: 3px;
+            border: 1px solid #D4D4D4;
+            margin: 5px auto 0px auto;
+            font-size: 14px;
+            line-height: 16px;
+            font-family: 'Roboto-Light_300';
+            padding: 15px 0px 0px 15px;
+            span {
+                color: #999999;
+            }
+        }
+        .create_button {
+            width: 280px;
+            height: 40px;
+            margin: 10px auto 0px auto;
+            border-radius: 40px;
+            background-color: $color_1;
+            text-align: center;
+            font-size: 14px;
+            line-height: 17px;
+            font-family: 'Montserrat-Bold_700';
+            padding-top: 13px;
+            cursor: pointer;
+            span {
+                color: $text_color_1;
+            }
+        }
+    }
+    .vault {
+        width: 320px;
+        height: 215px;
+        border-top: 3px solid $color_1;
+        margin: 32px auto 0px auto;
+        display: flex;
+        flex-direction: column;
+        .vault_1 {
+            width: 119px;
+            height: 20px;
+            font-size: 16px;
+            line-height: 20px;
+            font-family: 'Montserrat-Regular_400';
+            margin: 20px auto 0px auto;
+            span {
+                color: $color_1;
+            }
+        }
+        .vault_2 {
+            width: 280px;
+            height: 70px;
+            display: flex;
+            flex-direction: column;
+            margin: 12px auto 0px auto;
+            .vault_2_1 {
+                width: 70px;
+                height: 17px;
+                margin: 0px auto 0px auto;
+                font-size: 14px;
+                line-height: 17px;
+                text-align: center;
+                font-family: 'Montserrat-Bold_700';
+                span {
+                    color: $text_color_5;
+                }
+            }
+            .vault_2_2 {
+                width: 280px;
+                height: 52px;
+                font-size: 14px;
+                line-height: 26px;
+                text-align: justify;
+                font-family: 'Roboto-Light_300';
+                margin: 0px auto 0px auto;
+                display:flex;
+                flex-wrap: wrap;
+                justify-content:space-around;
+                padding: 0px 40px 0px 40px;
+                span {
+                    color: $text_color_6;
+                }
+            }
+        }
+        .vault_3 {
+            width: 64px;
+            height: 17px;
+            font-size: 14px;
+            line-height: 17px;
+            font-family: 'Montserrat-Bold_700';
+            margin: 6px auto 0px auto;
+            span {
+                color: $text_color_5;
+            }
+        }
+        .vault_4 {
+            width: 110px;
+            height: 43px;
+            margin: 15px auto 0px auto;
+            display: flex;
+            flex-direction: column;
+            .vault_4_1 {
+                width: 84px;
+                height: 12px;
+                font-size: 10px;
+                line-height: 12px;
+                text-align: center;
+                font-family: 'Montserrat-Bold_700';
+                letter-spacing: 1px;
+                margin: 0px auto 0px auto;
+                span {
+                    color: $text_color_6;
+                }
+            }
+            .vault_4_2 {
+                width: 110px;
+                height: 24px;
+                margin: 6px auto 0px auto;
+                background-image: url(img/designedby.png);
+                background-size:contain;
+            }
+        }
+    }
+}
+
+@import 'w768';
+@import 'w1440';
